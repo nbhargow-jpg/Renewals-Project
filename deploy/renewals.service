@@ -1,0 +1,20 @@
+[Unit]
+Description=Mobileum Horizon Renewals Service
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=renewals
+Group=renewals
+WorkingDirectory=/opt/renewals
+EnvironmentFile=/opt/renewals/.env
+ExecStart=/opt/renewals/venv/bin/uvicorn backend.main:app --host 127.0.0.1 --port 8000 --workers 4
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

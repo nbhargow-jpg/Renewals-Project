@@ -1,0 +1,345 @@
+Total slides: 24
+
+=======================================================
+--- Slide 1: NO TITLE ---
+=======================================================
+  Shape: 'Rectangle 1' (AUTO_SHAPE (1)) [Text: '']
+  Shape: 'Rectangle 2' (AUTO_SHAPE (1)) [Text: '']
+  Shape: 'Mobileum logo' (PICTURE (13))
+  Shape: 'TextBox 4' (TEXT_BOX (17)) [Text: 'Mobileum']
+  Shape: 'Cover title' (TEXT_BOX (17)) [Text: 'Renewals Daily Update']
+  Shape: 'TextBox 6' (TEXT_BOX (17)) [Text: 'Expiry, approvals and top opportunities by region']
+  Shape: 'Cover date' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026']
+  Shape: 'TextBox 8' (TEXT_BOX (17)) [Text: 'Mobileum  |  Confidential']
+
+=======================================================
+--- Slide 2: Renewals Summary – Expiry Q3 ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Renewals Summary – Expiry Q3']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   T-Y = Today vs Yesterday,  T-LW = Today vs Last Week']
+  Shape: 'Expiry pivot table' (TABLE (19)) [Table 33x8]
+     Headers: ['Service Expiry', 'Forecast Category', 'Today Amount', 'Today Count', 'T-Y Amount', 'T-Y Count', 'T-LW Amount', 'T-LW Count']
+     Row 1: ['Q1-2026', ' ', '24,945,874.66', '266', '-45,192.76', '-1', '-70,298.95', '-2']
+     Row 2: [' ', 'Closed', '23,654,888.17', '250', '96,509.24', '1', '71,403.05', '0']
+     Row 3: [' ', 'Commit', '324,817.50', '6', '-141,702.00', '-2', '-141,702.00', '-2']
+     Row 4: [' ', 'Best Case', '901,175.99', '9', '0.00', '0', '0.00', '0']
+     Row 5: [' ', 'Pipeline', '64,993.00', '1', '0.00', '0', '0.00', '0']
+     Last Row (32): ['Grand Total', ' ', '120,511,647.51', '1167', '1,038,157.57', '5', '1,669,591.48', '21']
+  Shape: 'KPI card' (AUTO_SHAPE (1)) [Text: 'Total ACV (Today)\n$120.51M  |  1,167']
+  Shape: 'KPI card' (AUTO_SHAPE (1)) [Text: 'vs Yesterday\n+$1.04M  |  +5']
+  Shape: 'KPI card' (AUTO_SHAPE (1)) [Text: 'vs Last Week\n+$1.67M  |  +21']
+  Shape: 'TextBox 7' (TEXT_BOX (17)) [Text: 'Green = increase, orange = decrease. Look at the coloured cells for what changed.']
+
+=======================================================
+--- Slide 3: Opportunity Approval Status ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Opportunity Approval Status']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026']
+  Shape: 'Approval status table' (TABLE (19)) [Table 3x7]
+     Headers: [' ', 'Total', 'Approved', 'Approved - 2nd', 'Pending-Approval', 'Blank', 'Rejected']
+     Row 1: ['Opportunities', '3,086', '748', '877', '31', '1,411', '19']
+     Row 2: ['ACV (USD)', '$450.04M', '$95.79M', '$86.98M', '$11.00M', '$246.46M', '$9.81M']
+  Shape: 'Approval chart' (CHART (3)) [Chart COLUMN_CLUSTERED (51)] categories: ['Approved', 'Approved - 2nd', 'Pending-Approval', 'Blank', 'Rejected']
+  Shape: 'Key points (edit daily)' (AUTO_SHAPE (1)) [Text: "Today's changes\nNewly approved:  9\nNewly pending approval:  5\nNewly rejected:  0"]
+
+=======================================================
+--- Slide 4: Forecast Category: Today vs Yesterday ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Forecast Category: Today vs Yesterday']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026']
+  Shape: 'Forecast category table' (TABLE (19)) [Table 7x6]
+     Headers: ['Forecast Category', 'Today Count', 'Today ACV', 'Yesterday ACV', 'Count Δ', 'ACV Δ']
+     Row 1: ['Closed', '1245', '124,716,888', '118,137,589', '+29', '+6,579,298']
+     Row 2: ['Commit', '488', '62,209,348', '67,860,367', '-24', '-5,651,020']
+     Row 3: ['Best Case', '547', '129,321,882', '127,778,046', '-5', '+1,543,837']
+     Row 4: ['Pipeline', '538', '92,623,466', '93,348,085', '-12', '-724,618']
+     Row 5: ['(Blank)', '268', '41,168,666', '39,845,544', '+16', '+1,323,122']
+     Last Row (6): ['Total', '3086', '450,040,251', '446,969,631', '+4', '+3,070,620']
+  Shape: 'Forecast movement table' (TABLE (19)) [Table 10x2]
+     Headers: ['Forecast movement (yesterday → today)', 'Opps']
+     Row 1: ['Commit → Closed', '29']
+     Row 2: ['Pipeline → (Blank)', '7']
+     Row 3: ['Best Case → Commit', '6']
+     Row 4: ['Best Case → (Blank)', '5']
+     Row 5: ['Commit → (Blank)', '4']
+     Last Row (9): ['Pipeline → Commit', '1']
+
+=======================================================
+--- Slide 5: Top 10 Forecast ACV Changes vs Yesterday ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Forecast ACV Changes vs Yesterday']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026']
+  Shape: 'ACV change table' (TABLE (19)) [Table 11x5]
+     Headers: ['#', 'Opportunity', 'Old ACV', 'New ACV', 'Type']
+     Row 1: ['1', 'TELCO RAFM Solution RFP', '1,200,000', '3,500,000', 'Increase']
+     Row 2: ['2', 'NI_Tsel_Indo_Superapps Renewal Msight _01_01_2027 - 31_12_2027', '0', '515,525', 'New']
+     Row 3: ['3', 'iCampaign Annual Subscription 2026-27 second half', '1', '145,837', 'Increase']
+     Row 4: ['4', 'MB_Kyivstar_AMC Renewal_Roaming_ _01_01_2027 - 31_12_2027', '89,393', '161,086', 'Increase']
+     Row 5: ['5', 'Maroc Telecom SITE Ookla NEW', '112,936', '44,490', 'Decrease']
+     Last Row (10): ['10', 'GL188 - Y2 renewal - HW and SW maintenance', '134,223', '105,726', 'Decrease']
+
+=======================================================
+--- Slide 6: Top 10 Opportunities – North America ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – North America']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   North America total: $79.89M across 328 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000as0WCIAY', 'Verizon_AMC, Onsite Manage Services and License renewal  - RNS  -2027', '4,968,375.00']
+     Row 2: ['2', '006Qp00000SahvxIAB', 'Verizon RoamingDNA Network, Business and IOT analytics - Expansion', '4,266,000.00']
+     Row 3: ['3', '006Qp00000TtPWXIA3', 'Verizon 5G SA  Roam Usage Manager (RUM) and Captive Portal', '3,840,000.00']
+     Row 4: ['4', '006Qp00000KXroQIAT', 'Verizon_AMC, Onsite License renewal - RNS _2026', '2,530,000.00']
+     Row 5: ['5', '006Qp00000m8JrRIAU', 'Verizon - Lab Automation', '2,500,000.00']
+     Last Row (11): [' ', ' ', 'Top 10 total', '28,454,375.00']
+
+=======================================================
+--- Slide 7: Top 10 Opportunities – West Europe ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – West Europe']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   West Europe total: $77.95M across 912 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000kgHhuIAE', 'OFR RR platform replacement', '4,563,084.65']
+     Row 2: ['2', '006Qp00000iZEy2IAG', 'Fibercop Piattaforma antifrode RFI', '1,236,253.71']
+     Row 3: ['3', '006Qp00000lPJJqIAO', 'NIO_Lebara UK_DNA', '1,058,352.54']
+     Row 4: ['4', '0061K00000liGPpQAM', 'Extensão suporte aplicacional MS 2026-27', '837,126.09']
+     Row 5: ['5', '006Qp00000LaTVdIAN', 'Signalling FW', '741,501.25']
+     Last Row (11): [' ', ' ', 'Top 10 total', '11,505,669.19']
+
+=======================================================
+--- Slide 8: Top 10 Opportunities – Middle East ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – Middle East']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   Middle East total: $74.34M across 374 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000jDqtJIAS', 'Mobilis - CEM RFP 2026', '13,800,000.00']
+     Row 2: ['2', '006Qp00000a8Y4cIAE', 'Mobily RFP RDNA and Customer Journey 2026', '4,269,368.55']
+     Row 3: ['3', '0061K00000glFupQAE', 'Etisalat (UAE) - Airlinq Expansion', '2,000,000.00']
+     Row 4: ['4', '006Qp00000jDxBdIAK', 'STC KSA Fraud Cloudification 2026', '1,635,000.00']
+     Row 5: ['5', '006Qp000005XGuLIAW', 'du - Collections Upgrade', '1,524,807.52']
+     Last Row (11): [' ', ' ', 'Top 10 total', '29,272,190.34']
+
+=======================================================
+--- Slide 9: Top 10 Opportunities – AFRICA ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – AFRICA']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   AFRICA total: $71.67M across 390 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '0061K00000lgzEgQAI', 'CAK - Tax Assurance', '4,000,000.00']
+     Row 2: ['2', '0061K00000maOfkQAE', 'NCC Nigeria Digital Media RA', '3,999,954.00']
+     Row 3: ['3', '006Qp00000gLPhZIAW', 'TELCO RAFM Solution RFP', '3,500,000.00']
+     Row 4: ['4', '006Qp00000SnZ7lIAF', 'Safaricom Kenya and Ethiopia Revenue assurance RFP 2025- RAID 9', '3,422,797.00']
+     Row 5: ['5', '006Qp00000X71pCIAR', 'WD_CRM Managed Services 2026-2027', '2,868,427.43']
+     Last Row (11): [' ', ' ', 'Top 10 total', '26,937,025.14']
+
+=======================================================
+--- Slide 10: Top 10 Opportunities – SEAO ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – SEAO']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   SEAO total: $48.96M across 338 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000aofsrIAA', 'Optus - E000 Nomadics extension', '1,672,867.34']
+     Row 2: ['2', '006Qp00000jLoHiIAK', 'Singtel - EnE - SLBB 2026 Capacity Expansion', '1,468,088.39']
+     Row 3: ['3', '006Qp00000kyf4DIAQ', 'Telkomsel MBB FBB Capacity Expansion', '1,400,000.00']
+     Row 4: ['4', '006Qp00000jM2UIIA0', 'Singtel - EnE - SLMB 2026 Capacity Expansion', '1,390,820.58']
+     Row 5: ['5', '006Qp00000asS7RIAU', 'TPG - Roaming Platform Managed Service -  _01_01_2027 - 31_12_2027', '858,986.59']
+     Last Row (11): [' ', ' ', 'Top 10 total', '10,312,504.10']
+
+=======================================================
+--- Slide 11: Top 10 Opportunities – South America ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – South America']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   South America total: $35.06M across 276 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000Yx1voIAB', 'AMX - Claro Brasil - RAID Modules - RA Transformation - PO 2', '1,032,629.03']
+     Row 2: ['2', '0061K00000jxaAsQAI', 'AT&T-Niometrics 2027', '1,000,000.00']
+     Row 3: ['3', '0061K00000maKGyQAM', 'AMX - Regional Signalling Firewall', '1,000,000.00']
+     Row 4: ['4', '006Qp00000DAzYzIAL', 'Bolwar_ICE CR_E&E_DNA', '900,000.00']
+     Row 5: ['5', '006Qp00000D3GjuIAF', 'AMX - Claro Brasil - RAID Modules - RA Transformation _ PO 1', '806,820.68']
+     Last Row (11): [' ', ' ', 'Top 10 total', '8,338,449.71']
+
+=======================================================
+--- Slide 12: Top 10 Opportunities – NASA ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – NASA']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   NASA total: $34.51M across 170 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000OkzXKIAZ', 'NTT Docomo SecurityFW_International and MVNO', '4,000,000.00']
+     Row 2: ['2', '006Qp00000bOh4vIAC', 'SB OSFR Big CR Supporting for Discontinue Old Roaming Service " Overseas Unlimited Packet" & Defaluting Anshin-Teigaku', '2,052,319.40']
+     Row 3: ['3', '006Qp00000afSEvIAM', 'SD_WAS_22 - CUG - SoR migrate CU Mainland platform (+GTP Proxy)', '2,000,000.00']
+     Row 4: ['4', '006Qp00000Lcsw9IAB', 'SB OSFR EoSL Extension and Upgrade', '1,500,000.00']
+     Row 5: ['5', '006Qp00000fyHUbIAM', 'SB OSFR License Upgrade from 200k to 300k sub', '1,023,209.87']
+     Last Row (11): [' ', ' ', 'Top 10 total', '15,383,123.27']
+
+=======================================================
+--- Slide 13: Top 10 Opportunities – East Europe ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – East Europe']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   East Europe total: $19.14M across 292 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '0061K00000fl1ntQAA', 'Azercell RA & FMS RFI', '912,616.93']
+     Row 2: ['2', '0061K00000mCmFxQAK', 'Kyivstar SiC', '578,238.65']
+     Row 3: ['3', '006Qp00000eTXMXIA4', 'Cosmote Greece (through Cognity) - RA and FMS', '570,385.58']
+     Row 4: ['4', '006Qp00000XMdsgIAD', 'Azercell Roaming setup upgrade and Geo-Redundancy', '513,981.00']
+     Row 5: ['5', '006Qp00000NiYK7IAN', 'Viva Armenia RA&FM RFI', '500,000.00']
+     Last Row (11): [' ', ' ', 'Top 10 total', '5,008,439.15']
+
+=======================================================
+--- Slide 14: Top 10 Opportunities – NAMR GUAVUS ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 Opportunities – NAMR GUAVUS']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   NAMR GUAVUS total: $8.53M across 6 opportunities']
+  Shape: 'Top 10 table' (TABLE (19)) [Table 12x4]
+     Headers: ['#', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', '006Qp00000fhmwGIAQ', 'Verizon Guavus EBM EDR/FDR – Edge Collector for Event Data -Software and Support and Maintenance', '5,435,136.00']
+     Row 2: ['2', '006Qp00000asPmIIAU', 'Guavus_Verizon_ Managed Services _01_01_2027 - 31_12_2027', '1,545,000.00']
+     Row 3: ['3', '006Qp00000asS94IAE', 'Guavus_Verizon_ S&M _01_01_2027 - 31_12_2027', '870,000.00']
+     Row 4: ['4', '006Qp00000bPZtJIAW', 'Guavus Verizon 2027 Annual Maintenance & Managed Services for SLIP', '435,110.00']
+     Row 5: ['5', '006Qp00000k9yP4IAI', 'Verizon Guavus PP CR FLS Query Enhancements', '137,500.00']
+     Last Row (11): [' ', ' ', 'Top 10 total', '8,528,196.00']
+
+=======================================================
+--- Slide 15: Business Unit – Opportunities & Approval Status ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Business Unit – Opportunities & Approval Status']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   Count of opportunities by Business Unit; Blank = no approval status yet']
+  Shape: 'BU approval table' (TABLE (19)) [Table 18x7]
+     Headers: ['Business Unit', 'Total Opps', 'Approved', 'Approved - 2nd', 'Pending-Approval', 'Blank', 'Rejected']
+     Row 1: ['Engagement and Experience', '169', '27', '22', '3', '114', '3']
+     Row 2: ['Engagement and Experience; Risk', '9', '2', '3', '2', '2', '–']
+     Row 3: ['Engagement and Experience; Risk; Roaming', '1', '1', '–', '–', '–', '–']
+     Row 4: ['Engagement and Experience; Roaming', '14', '4', '1', '–', '9', '–']
+     Row 5: ['Engagement and Experience; Testing', '2', '–', '–', '–', '2', '–']
+     Last Row (17): ['Total', '3,086', '748', '877', '31', '1,411', '19']
+
+=======================================================
+--- Slide 16: Top 10 by Business Unit – North America ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – North America']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   North America – Roaming; Security: $12.93M across 7 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Roaming; Security', '006Qp00000as0WCIAY', 'Verizon_AMC, Onsite Manage Services and License renewal  - RNS  -2027', '4,968,375.00']
+     Row 2: ['2', 'Roaming; Security', '006Qp00000KXroQIAT', 'Verizon_AMC, Onsite License renewal - RNS _2026', '2,530,000.00']
+     Row 3: ['3', 'Roaming; Security', '006Qp00000m8JrRIAU', 'Verizon - Lab Automation', '2,500,000.00']
+     Row 4: ['4', 'Roaming; Security', '006Qp00000jtGmzIAE', 'Verizon RGW IoT-M2M Service Enablement and Security updates', '1,090,000.00']
+     Row 5: ['5', 'Roaming; Security', '006Qp00000m8LJlIAM', 'Verizon - GIF and PCEF Expansion', '1,000,000.00']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '12,925,375.00']
+
+=======================================================
+--- Slide 17: Top 10 by Business Unit – West Europe ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – West Europe']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   West Europe – Roaming: $26.11M across 196 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Roaming', '006Qp00000kgHhuIAE', 'OFR RR platform replacement', '4,563,084.65']
+     Row 2: ['2', 'Roaming', '006Qp00000V1K4TIAV', 'OFR_ RR MS Consultation 2026_2027', '681,968.77']
+     Row 3: ['3', 'Roaming', '006Qp00000UiheIIAR', 'OFR_ DNS CR', '628,092.56']
+     Row 4: ['4', 'Roaming', '006Qp00000LQBVCIA5', 'MB_EE UK_iCampaign V2 Upgrade and Migration to new 2 Site Architecture VM infra inc. 5 Years AMC', '618,518.46']
+     Row 5: ['5', 'Roaming', '006Qp00000asS0zIAE', 'MB_Telia AMC Renewal_Roaming_ _01_01_2027 - 31_12_2027', '538,546.66']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '9,019,358.05']
+
+=======================================================
+--- Slide 18: Top 10 by Business Unit – Middle East ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – Middle East']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   Middle East – Engagement and Experience: $21.16M across 22 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Engagement and Experience', '006Qp00000jDqtJIAS', 'Mobilis - CEM RFP 2026', '13,800,000.00']
+     Row 2: ['2', 'Engagement and Experience', '0061K00000lhw8rQAA', 'Batelco Mobile CEM', '1,300,000.00']
+     Row 3: ['3', 'Engagement and Experience', '006Qp00000DOaqrIAD', 'Etisalat Egypt - Roaming DNA', '800,000.00']
+     Row 4: ['4', 'Engagement and Experience', '006Qp00000hzJeTIAU', 'Algerie Telecom FBB DNA', '700,000.00']
+     Row 5: ['5', 'Engagement and Experience', '0061K00000iiizSQAQ', 'SUDATEL DNA', '700,000.00']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '20,175,694.00']
+
+=======================================================
+--- Slide 19: Top 10 by Business Unit – AFRICA ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – AFRICA']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   AFRICA – Risk: $34.79M across 144 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Risk', '0061K00000lgzEgQAI', 'CAK - Tax Assurance', '4,000,000.00']
+     Row 2: ['2', 'Risk', '006Qp00000gLPhZIAW', 'TELCO RAFM Solution RFP', '3,500,000.00']
+     Row 3: ['3', 'Risk', '006Qp00000SnZ7lIAF', 'Safaricom Kenya and Ethiopia Revenue assurance RFP 2025- RAID 9', '3,422,797.00']
+     Row 4: ['4', 'Risk', '006Qp00000X71pCIAR', 'WD_CRM Managed Services 2026-2027', '2,868,427.43']
+     Row 5: ['5', 'Risk', '006Qp000005fWDxIAM', 'SD_Trafic Monitoring_INACOM', '1,863,975.59']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '21,049,105.06']
+
+=======================================================
+--- Slide 20: Top 10 by Business Unit – SEAO ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – SEAO']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   SEAO – Testing: $8.13M across 107 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Testing', '006Qp00000aofsrIAA', 'Optus - E000 Nomadics extension', '1,672,867.34']
+     Row 2: ['2', 'Testing', '006Qp00000m6V2IIAU', 'Optus - NBN testing + dual core testing', '500,000.00']
+     Row 3: ['3', 'Testing', '006Qp00000mrNCXIA2', 'Optus - NBN E000 + Core Probes Resiliency', '482,592.21']
+     Row 4: ['4', 'Testing', '006Qp00000aoYrPIAU', 'TPG - E000 SITE Upgrade', '437,605.00']
+     Row 5: ['5', 'Testing', '006Qp00000Ek3pFIAR', 'Indosat - SITE upgrade (5G, VoLTE, CLUs_WLUs)', '350,000.00']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '4,745,453.62']
+
+=======================================================
+--- Slide 21: Top 10 by Business Unit – South America ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – South America']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   South America – Risk: $8.90M across 68 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Risk', '006Qp00000Yx1voIAB', 'AMX - Claro Brasil - RAID Modules - RA Transformation - PO 2', '1,032,629.03']
+     Row 2: ['2', 'Risk', '006Qp00000D3GjuIAF', 'AMX - Claro Brasil - RAID Modules - RA Transformation _ PO 1', '806,820.68']
+     Row 3: ['3', 'Risk', '006Qp00000U14EnIAJ', 'ENTEL CH-PR_RAID 9 GenAI RA & FMS - Modernization', '800,000.00']
+     Row 4: ['4', 'Risk', '0061K00000mCEhQQAW', 'RAID 9 - GENAI - AMX - Claro Brasil - RAID RQUAL Ressarcimento_Refund', '386,309.20']
+     Row 5: ['5', 'Risk', '006Qp00000fzbSrIAI', 'ENTEL PR_RISK_ RAID 9_SFM_Devoluciones', '300,000.00']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '4,573,349.38']
+
+=======================================================
+--- Slide 22: Top 10 by Business Unit – NASA ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – NASA']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   NASA – Risk; Roaming; Security: $4.00M across 1 opportunity']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Risk; Roaming; Security', '006Qp00000OkzXKIAZ', 'NTT Docomo SecurityFW_International and MVNO', '4,000,000.00']
+     Row 2: ['2', ' ', ' ', ' ', ' ']
+     Row 3: ['3', ' ', ' ', ' ', ' ']
+     Row 4: ['4', ' ', ' ', ' ', ' ']
+     Row 5: ['5', ' ', ' ', ' ', ' ']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '4,000,000.00']
+
+=======================================================
+--- Slide 23: Top 10 by Business Unit – East Europe ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – East Europe']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   East Europe – Risk: $6.60M across 85 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Risk', '0061K00000fl1ntQAA', 'Azercell RA & FMS RFI', '912,616.93']
+     Row 2: ['2', 'Risk', '006Qp00000eTXMXIA4', 'Cosmote Greece (through Cognity) - RA and FMS', '570,385.58']
+     Row 3: ['3', 'Risk', '006Qp00000NiYK7IAN', 'Viva Armenia RA&FM RFI', '500,000.00']
+     Row 4: ['4', 'Risk', '006Qp00000bdSwsIAE', 'PPC Greece RFP - Fraud and RA through Cognity', '394,428.64']
+     Row 5: ['5', 'Risk', '0061K00000gaXPjQAM', 'Upgrade to RAID 8 or RAID 9', '340,018.25']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '3,646,624.94']
+
+=======================================================
+--- Slide 24: Top 10 by Business Unit – NAMR GUAVUS ---
+=======================================================
+  Shape: 'Title 1' (PLACEHOLDER (14)) [Text: 'Top 10 by Business Unit – NAMR GUAVUS']
+  Shape: 'Data as of' (TEXT_BOX (17)) [Text: 'Data as of 05-Oct-2026   |   NAMR GUAVUS – Engagement and Experience: $8.53M across 6 opportunities']
+  Shape: 'Top 10 by BU table' (TABLE (19)) [Table 12x5]
+     Headers: ['#', 'Business Unit', 'Opportunity ID (18 digit)', 'Opportunity Name', 'Forecast ACV (USD)']
+     Row 1: ['1', 'Engagement and Experience', '006Qp00000fhmwGIAQ', 'Verizon Guavus EBM EDR/FDR – Edge Collector for Event Data -Software and Support and Maintenance', '5,435,136.00']
+     Row 2: ['2', 'Engagement and Experience', '006Qp00000asPmIIAU', 'Guavus_Verizon_ Managed Services _01_01_2027 - 31_12_2027', '1,545,000.00']
+     Row 3: ['3', 'Engagement and Experience', '006Qp00000asS94IAE', 'Guavus_Verizon_ S&M _01_01_2027 - 31_12_2027', '870,000.00']
+     Row 4: ['4', 'Engagement and Experience', '006Qp00000bPZtJIAW', 'Guavus Verizon 2027 Annual Maintenance & Managed Services for SLIP', '435,110.00']
+     Row 5: ['5', 'Engagement and Experience', '006Qp00000k9yP4IAI', 'Verizon Guavus PP CR FLS Query Enhancements', '137,500.00']
+     Last Row (11): [' ', ' ', ' ', 'Top 10 total', '8,528,196.00']
